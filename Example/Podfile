@@ -1,0 +1,6 @@
+use_frameworks!
+target 'EarlGreyWrapper_Tests' do
+  pod 'EarlGreyWrapper', :path => '../'
+  
+  
+end
