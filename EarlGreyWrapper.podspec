@@ -9,34 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'EarlGreyWrapper'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of EarlGreyWrapper.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'A convenient wrapper for EarlGrey testing'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        EarlGreyWrapper provides a set of convenient functions
+                        used to perform EarlGrey UI Testing.
                        DESC
 
-  s.homepage         = 'https://github.com/aunnnn/EarlGreyWrapper'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/oozou/EarlGreyWrapper'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aunnnn' => 'aun.wirawit@gmail.com' }
   s.source           = { :git => 'https://github.com/aunnnn/EarlGreyWrapper.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.ios.frameworks = 'XCTest'
 
   s.source_files = 'EarlGreyWrapper/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'EarlGreyWrapper' => ['EarlGreyWrapper/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'EarlGrey', '~> 1.0'
 end

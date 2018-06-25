@@ -7,28 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		113E111411422B3241DF190A /* Pods_EarlGreyWrapper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0FC06A6689096BA44B3ED3 /* Pods_EarlGreyWrapper_Tests.framework */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		30AAE0F720E0D25A00676E46 /* EarlGreyWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AAE0F620E0D25A00676E46 /* EarlGreyWrapperTests.swift */; };
+		3180B35F8F7919465F5D88D6 /* Pods_EarlGreyWrapperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F38FA084964FB191BFC6955 /* Pods_EarlGreyWrapperTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13D7538338484F50689EFC3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* EarlGreyWrapper_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGreyWrapper_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		0F38FA084964FB191BFC6955 /* Pods_EarlGreyWrapperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGreyWrapperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D7538338484F50689EFC3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		30AAE0EB20E0D0B500676E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30AAE0F420E0D25A00676E46 /* EarlGreyWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGreyWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30AAE0F620E0D25A00676E46 /* EarlGreyWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGreyWrapperTests.swift; sourceTree = "<group>"; };
+		30AAE0F820E0D25B00676E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59A1B0B20F30B88071B86A55 /* Pods-EarlGreyWrapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyWrapperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EarlGreyWrapperTests/Pods-EarlGreyWrapperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		622D9FCBB670AAAB90AB2F9E /* Pods-EarlGreyWrapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyWrapper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EarlGreyWrapper_Tests/Pods-EarlGreyWrapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9EDCA04285CC39BB2393AD2A /* Pods-EarlGreyWrapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyWrapper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EarlGreyWrapper_Tests/Pods-EarlGreyWrapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C82F94A57655EF5CCADC98C3 /* EarlGreyWrapper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EarlGreyWrapper.podspec; path = ../EarlGreyWrapper.podspec; sourceTree = "<group>"; };
+		B2D8CBF3866ABCB94ECCC642 /* Pods-EarlGreyWrapperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyWrapperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EarlGreyWrapperTests/Pods-EarlGreyWrapperTests.release.xcconfig"; sourceTree = "<group>"; };
+		C82F94A57655EF5CCADC98C3 /* EarlGreyWrapper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EarlGreyWrapper.podspec; path = ../EarlGreyWrapper.podspec; sourceTree = "<group>"; };
 		DD0FC06A6689096BA44B3ED3 /* Pods_EarlGreyWrapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGreyWrapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3FAADBBEE599BE833194359 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E3FAADBBEE599BE833194359 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
+		30AAE0F120E0D25A00676E46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				113E111411422B3241DF190A /* Pods_EarlGreyWrapper_Tests.framework in Frameworks */,
+				3180B35F8F7919465F5D88D6 /* Pods_EarlGreyWrapperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,15 +43,34 @@
 			isa = PBXGroup;
 			children = (
 				DD0FC06A6689096BA44B3ED3 /* Pods_EarlGreyWrapper_Tests.framework */,
+				0F38FA084964FB191BFC6955 /* Pods_EarlGreyWrapperTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30AAE0E920E0D0B500676E46 /* EarlGreyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				30AAE0EB20E0D0B500676E46 /* Info.plist */,
+			);
+			path = EarlGreyWrapper;
+			sourceTree = "<group>";
+		};
+		30AAE0F520E0D25A00676E46 /* EarlGreyWrapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				30AAE0F620E0D25A00676E46 /* EarlGreyWrapperTests.swift */,
+				30AAE0F820E0D25B00676E46 /* Info.plist */,
+			);
+			path = EarlGreyWrapperTests;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACE81AFB9204008FA782 /* Tests */,
+				30AAE0E920E0D0B500676E46 /* EarlGreyWrapper */,
+				30AAE0F520E0D25A00676E46 /* EarlGreyWrapperTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				964708534228C990B0022001 /* Pods */,
 				130D0D4E4D572638A9DFB1B1 /* Frameworks */,
@@ -57,26 +80,9 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACE51AFB9204008FA782 /* EarlGreyWrapper_Tests.xctest */,
+				30AAE0F420E0D25A00676E46 /* EarlGreyWrapperTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
@@ -94,6 +100,8 @@
 			children = (
 				622D9FCBB670AAAB90AB2F9E /* Pods-EarlGreyWrapper_Tests.debug.xcconfig */,
 				9EDCA04285CC39BB2393AD2A /* Pods-EarlGreyWrapper_Tests.release.xcconfig */,
+				59A1B0B20F30B88071B86A55 /* Pods-EarlGreyWrapperTests.debug.xcconfig */,
+				B2D8CBF3866ABCB94ECCC642 /* Pods-EarlGreyWrapperTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -101,23 +109,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACE41AFB9204008FA782 /* EarlGreyWrapper_Tests */ = {
+		30AAE0F320E0D25A00676E46 /* EarlGreyWrapperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "EarlGreyWrapper_Tests" */;
+			buildConfigurationList = 30AAE0F920E0D25B00676E46 /* Build configuration list for PBXNativeTarget "EarlGreyWrapperTests" */;
 			buildPhases = (
-				C11DA67670660AAEF18A0F59 /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-				6F47E1950B6B4403F29E0B15 /* [CP] Embed Pods Frameworks */,
+				7717BFB5C5287A39BAECBE84 /* [CP] Check Pods Manifest.lock */,
+				30AAE0F020E0D25A00676E46 /* Sources */,
+				30AAE0F120E0D25A00676E46 /* Frameworks */,
+				30AAE0F220E0D25A00676E46 /* Resources */,
+				42F070810B8AC87E8A04F6FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = EarlGreyWrapper_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* EarlGreyWrapper_Tests.xctest */;
+			name = EarlGreyWrapperTests;
+			productName = EarlGreyWrapperTests;
+			productReference = 30AAE0F420E0D25A00676E46 /* EarlGreyWrapperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -126,18 +134,14 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
+					30AAE0F320E0D25A00676E46 = {
+						CreatedOnToolsVersion = 9.4;
+						DevelopmentTeam = BA36Y82DMA;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -154,13 +158,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACE41AFB9204008FA782 /* EarlGreyWrapper_Tests */,
+				30AAE0F320E0D25A00676E46 /* EarlGreyWrapperTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		607FACE31AFB9204008FA782 /* Resources */ = {
+		30AAE0F220E0D25A00676E46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -170,25 +174,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6F47E1950B6B4403F29E0B15 /* [CP] Embed Pods Frameworks */ = {
+		42F070810B8AC87E8A04F6FC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EarlGreyWrapper_Tests/Pods-EarlGreyWrapper_Tests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-EarlGreyWrapperTests/Pods-EarlGreyWrapperTests-frameworks.sh",
+				"${PODS_ROOT}/EarlGrey/EarlGrey/EarlGrey.framework",
 				"${BUILT_PRODUCTS_DIR}/EarlGreyWrapper/EarlGreyWrapper.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EarlGrey.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EarlGreyWrapper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EarlGreyWrapper_Tests/Pods-EarlGreyWrapper_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EarlGreyWrapperTests/Pods-EarlGreyWrapperTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C11DA67670660AAEF18A0F59 /* [CP] Check Pods Manifest.lock */ = {
+		7717BFB5C5287A39BAECBE84 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -199,7 +205,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EarlGreyWrapper_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EarlGreyWrapperTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -209,17 +215,67 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		607FACE11AFB9204008FA782 /* Sources */ = {
+		30AAE0F020E0D25A00676E46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				30AAE0F720E0D25A00676E46 /* EarlGreyWrapperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		30AAE0FA20E0D25B00676E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A1B0B20F30B88071B86A55 /* Pods-EarlGreyWrapperTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BA36Y82DMA;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = EarlGreyWrapperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oozou.EarlGreyWrapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30AAE0FB20E0D25B00676E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D8CBF3866ABCB94ECCC642 /* Pods-EarlGreyWrapperTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BA36Y82DMA;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = EarlGreyWrapperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oozou.EarlGreyWrapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -232,12 +288,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -285,12 +343,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -319,61 +379,23 @@
 			};
 			name = Release;
 		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 622D9FCBB670AAAB90AB2F9E /* Pods-EarlGreyWrapper_Tests.debug.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EDCA04285CC39BB2393AD2A /* Pods-EarlGreyWrapper_Tests.release.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		30AAE0F920E0D25B00676E46 /* Build configuration list for PBXNativeTarget "EarlGreyWrapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30AAE0FA20E0D25B00676E46 /* Debug */,
+				30AAE0FB20E0D25B00676E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "EarlGreyWrapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
 				607FACEE1AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "EarlGreyWrapper_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
